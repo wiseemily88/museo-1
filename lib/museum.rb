@@ -3,7 +3,7 @@ class Museum
               :name
 
   def initialize(arguments)
-    @id   = arguments[:id]
+    @id   = arguments[:id] || 1
     @name = arguments[:name]
   end
 end

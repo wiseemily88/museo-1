@@ -6,7 +6,7 @@ class Artist
               :country
 
   def initialize(arguments)
-    @id      = arguments[:id]
+    @id      = arguments[:id] || 1
     @name    = arguments[:name]
     @born    = arguments[:born]
     @died    = arguments[:died]
